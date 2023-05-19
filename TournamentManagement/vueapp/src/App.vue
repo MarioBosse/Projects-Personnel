@@ -1,5 +1,6 @@
 <template>
-  <Header></Header>
+  <Header />
+  <router-view />
   <HelloWorld msg="Bienvenue de notre application de gestion de tournois" />
 </template>
 
@@ -20,6 +21,19 @@ export default {
 
 <style>
 #app {
+  @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+  html { font-size: 22px; }
+  body { font-family: 'Roboto', sans-serif; }
+
+  a {
+    color: #0094ff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: 
+  }
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
